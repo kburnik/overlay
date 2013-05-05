@@ -1,0 +1,29 @@
+.overlay-curtain {
+	background:black;
+	position:absolute;
+	z-index:1000;
+}
+
+.overlay-surogate {
+-moz-border-radius:5px;
+border-radius:5px;
+-webkit-border-radius:5px;
+behavior:url('border-radius.htc');
+position:absolute;
+border:8px solid black;
+background:#555555;
+}
+
+.overlay-container {
+	display:none;
+	z-index:2000;
+	background:white;
+	position:absolute;
+	width:700px;
+	height:600px;
+	border:1px solid black;
+	/*-moz-border-radius:5px;
+	/*border-radius:5px;
+	-webkit-border-radius:5px;*/
+	behavior:url('border-radius.htc');
+}
